@@ -1,0 +1,261 @@
+@font-face{
+	src: url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf/);
+	font-family: PlayfairDisplay-Regular ;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*header start*/
+header{
+	padding: 50px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid greenyellow;*/
+	overflow: hidden;
+
+}
+.logo{
+	padding-top: 7px;
+	width: 12%;
+	/*border: 1px solid red;*/
+	float: left;
+	
+
+}
+.logo img{
+	width: 100%;
+	
+}
+.menu{
+	width: 54%;
+	padding-top: 4px ;
+	/*border: 1px solid red;*/
+	float: right;
+
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	margin: 0 70px;
+	padding: 4px 2px 3px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{
+
+}
+.b_img{
+
+}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*perfect start*/
+.perfect{
+	padding: 100px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+}
+.p_perfect{
+}
+.c_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: b4ad9e;
+	text-transform: uppercase;
+}
+.c_title{
+	margin: 20px 0 30px;	 
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+    line-height: 25px;
+    
+}
+.mb_40{
+	margin-bottom: 40px;
+}
+/*perfeck end*/
+/*Lifestyle start*/
+.lifestyle{
+	overflow: hidden;
+	margin: 68px 0;
+}
+.l_left{
+	margin: 0;
+	width: 47%;
+	float: left;
+
+}
+.l_img{
+}
+.l_img img{
+	width: 100%;
+}
+.l_p{
+	margin: 30px 0;
+}
+.l_right{
+	margin: 0;
+	width: 47%;
+	float: right;
+
+}
+.l_img{
+
+}
+.l_img img{
+	width: 100%;
+}
+
+/*Lifestyle end*/
+/*Next Lifestyle start*/
+.next_lifestyle{
+	margin: 68px 0;
+	overflow: hidden;
+}
+/*Next Lifestyle end*/
+/*sign up start*/
+.news{
+	background-color: f0f0f0;
+
+
+}
+.sign_up{
+	margin: 80px 0;
+	padding: 70px 0;
+	text-align: center;
+}
+.s1{
+	margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #333333;
+}
+.s_form{
+	margin: 0 auto;
+	width: 380px;
+	border-bottom: 1px solid #000000;
+	padding-bottom: 12px;
+	overflow: hidden;
+	position: relative;
+}
+.s_form input{
+	font-family: PlayfairDisplay-Regular;
+	color: #626262;
+	font-weight: 400;
+	font-size: 14px;
+	width: 330px;
+	float: left;
+	border: none;
+	background-color: transparent;
+	padding-left: 5px;
+}
+.s_form input:focus{
+	outline: 0;
+	padding-left: 5px;
+}
+.s_form button{
+	float: right;
+	border: none;
+}
+
+/*sign up end*/
+/*lifestyle start*/
+.lifestyle{}
+.m{
+	margin: 130px 0;
+}
+/*lifestyle end*/
+/*load start*/
+.load_more{
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 195px
+}
+.box{
+	margin: 0 auto;
+	padding: 2px;
+	width: 165px;
+	height: 60px;
+	border: 1px solid #626262;
+}
+ul{
+	margin: 0 auto;
+	padding-top: 18px;
+	font-size: 20px;
+}
+ul a{
+	font-family: PlayfairDisplay-Regular;
+	color: #8a8a8a;
+	font-size: 20px;
+	text-decoration: none;
+}
+/*load end*/
+/*footer start*/
+.footer{
+	background-color: #f0f0f0;
+}
+.wrapper2{
+	margin-left: 215px;
+    margin-right: 70px;
+	padding: 44px 0;
+	width: 80%;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+}
+.f_p{
+	font-size: 16px;
+	color: #232323;
+	float: left;
+}
+.p{
+	padding: 0 30px;
+}
+.l{
+	padding-left: 1050px;
+}
+.footer_img{
+	overflow: hidden;
+	/*border: 1px solid green;*/
+	padding: 18px;
+
+}
+.f-img{
+	float: left;
+	padding: 0 17px;
+}
+.f-img img{
+	width: 100%;
+}
+/*footer end*/
